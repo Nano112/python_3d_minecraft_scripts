@@ -1,0 +1,1 @@
+ffmpeg -i frames/%d.png -vf scale=1920:1080 -c:v libx264 -crf 17 -pix_fmt yuv420p -preset veryslow -y output.mp4
